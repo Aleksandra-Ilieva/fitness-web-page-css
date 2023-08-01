@@ -1,0 +1,64 @@
+
+
+@media (max-width: 650px) {
+    .number{
+        display: none;
+    }
+    .navigation{
+        display: none;
+    }
+
+
+
+    .main-info{
+        bottom: -20%;
+    }
+
+
+
+    .main-info h1{
+        font-size: 2rem;
+    }
+
+
+
+    .main-info p{
+        font-size: 1.1rem;
+
+    }
+
+    .welcome .cards{
+        flex-direction: column;
+    }
+
+
+
+    .welcome h2{
+        margin-right: 0px;
+    }
+
+
+
+    .trainers{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+
+    .main-info button:hover{
+
+       transform: none;
+
+    }
+
+}
+
+@media (max-width: 350px) {
+    .main-info p{
+       display: none;
+
+    }
+    
+}
